@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    
+    float c, f;
+    
+    printf("CONVERSOR DE TEMPERATURA\n");
+    printf("\n");
+    
+    printf("Digite a temperatura: ");
+    scanf("%f", &c);
+    printf("\n");
+    
+    f = c * (9 / 5) + 32;
+    
+    printf("O valor convertido em graus Fahrenheit é de: %.1f", f);
+ 
+    return 0;
+}
